@@ -127,24 +127,9 @@
 			
 		</div>
 		
-		<!--<div id="liste">
+		<div id="liste" style="display:none;">
 			<div id="liste_header">
-			<h3>
-				<?php 
-				if(isset($_GET['s']) AND !empty($_GET['s']))
-				{
-					$lang = lang('Recherche :', 'Search :');
-					echo $lang.' "'.$_GET["s"].'"';
-				}
-				else
-				{
-					lang('COVER récentes', 'Recent COVER'); 
-				}
-				?>
-			</h3>
 			
-			
-			<img alt="<?php lang('Fermer', 'Close'); ?>" title="<?php lang('Fermer', 'Close'); ?>" src="images/close.png" id="liste_close" />
 			
 			<div id="block_item">
 				
@@ -194,7 +179,7 @@
 			</div>
 			
 			</div>
-		</div>-->
+		</div>
 		
 			<div class="cmd">
 				<img src="images/prev.png" id="prev" class="opa" title="<?php lang('Précédent', ''); ?>"/>
