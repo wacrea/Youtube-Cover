@@ -1,0 +1,15 @@
+/* Developed by William AGAY */
+
+body{padding: 0;margin: 0;background: url('images/bg.PNG') top center #000;font-family: Arial;}
+header{width: 940px;height: 150px;margin: auto;margin-top: 50px;}
+header .logo{float: left;}
+.tv-block{background: url('images/tv-block.PNG');width: 800px;height: 561px;margin: auto;}
+iframe{margin-left: 45px;margin-top: 41px;}
+.info{float:right;font-family: Arial;color: #ccc;font-size: 17px;}
+.cmd{text-align: center;width: 940px;height: 70px;margin: auto;}
+footer{text-align: center;width: 940px;height: 70px;margin: auto;color: #ccc;font-size: 17px;font-family: Arial;margin-top: 50px;}
+a{color: #fff;}
+.opa:hover{opacity: 0.7;}
+#recherche{width: 700px;margin: auto;box-sizing: border-box;}
+#recherche input{width: 100%;padding: 10px;font-size: 20px;}
+#btn_search{background: #000;color: #fff;border:none;padding: 10px;width: 150px;}
